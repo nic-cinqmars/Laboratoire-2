@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Dechets">
+      <UniqueIdentifier>{4b49967b-2a88-448c-b589-c5dd2a357a56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dechets">
+      <UniqueIdentifier>{00611c2e-e5ee-40ec-8fa6-58c60c95b09f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DechetsTraite">
+      <UniqueIdentifier>{a0812e1f-7201-4773-9ec3-d1d29b4608d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DechetsTraite">
+      <UniqueIdentifier>{ddcfce0a-c6ba-47a1-983f-f350ca33ac38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Camions">
+      <UniqueIdentifier>{ccdd402e-2a3f-4f30-bc91-63084fe31bdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camions">
+      <UniqueIdentifier>{4b236a11-9fe3-4a84-ad2d-6d99eebb72b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Compteur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChargementDechet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoiteCarton.h">
+      <Filter>Header Files\Dechets</Filter>
+    </ClInclude>
+    <ClInclude Include="BouteilleBiere.h">
+      <Filter>Header Files\Dechets</Filter>
+    </ClInclude>
+    <ClInclude Include="Chaise.h">
+      <Filter>Header Files\Dechets</Filter>
+    </ClInclude>
+    <ClInclude Include="Dechet.h">
+      <Filter>Header Files\Dechets</Filter>
+    </ClInclude>
+    <ClInclude Include="DechetMalConcu.h">
+      <Filter>Header Files\Dechets</Filter>
+    </ClInclude>
+    <ClInclude Include="FeuillePapier.h">
+      <Filter>Header Files\Dechets</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanteVerte.h">
+      <Filter>Header Files\Dechets</Filter>
+    </ClInclude>
+    <ClInclude Include="QuelqueChose.h">
+      <Filter>Header Files\Dechets</Filter>
+    </ClInclude>
+    <ClInclude Include="RestantNourriture.h">
+      <Filter>Header Files\Dechets</Filter>
+    </ClInclude>
+    <ClInclude Include="SacChips.h">
+      <Filter>Header Files\Dechets</Filter>
+    </ClInclude>
+    <ClInclude Include="VerreCafe.h">
+      <Filter>Header Files\Dechets</Filter>
+    </ClInclude>
+    <ClInclude Include="DechetTraite.h">
+      <Filter>Header Files\DechetsTraite</Filter>
+    </ClInclude>
+    <ClInclude Include="DechetTraiteNonRecyclable.h">
+      <Filter>Header Files\DechetsTraite</Filter>
+    </ClInclude>
+    <ClInclude Include="DechetTraiteCompostable.h">
+      <Filter>Header Files\DechetsTraite</Filter>
+    </ClInclude>
+    <ClInclude Include="DechetTraiteRecyclable.h">
+      <Filter>Header Files\DechetsTraite</Filter>
+    </ClInclude>
+    <ClInclude Include="UQAC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Depot.h">
+      <Filter>Header Files\Camions</Filter>
+    </ClInclude>
+    <ClInclude Include="Camion.h">
+      <Filter>Header Files\Camions</Filter>
+    </ClInclude>
+    <ClInclude Include="CamionVert.h">
+      <Filter>Header Files\Camions</Filter>
+    </ClInclude>
+    <ClInclude Include="CamionBrun.h">
+      <Filter>Header Files\Camions</Filter>
+    </ClInclude>
+    <ClInclude Include="CamionBleu.h">
+      <Filter>Header Files\Camions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Compteur.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChargementDechet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BoiteCarton.cpp">
+      <Filter>Source Files\Dechets</Filter>
+    </ClCompile>
+    <ClCompile Include="BouteilleBiere.cpp">
+      <Filter>Source Files\Dechets</Filter>
+    </ClCompile>
+    <ClCompile Include="Chaise.cpp">
+      <Filter>Source Files\Dechets</Filter>
+    </ClCompile>
+    <ClCompile Include="Dechet.cpp">
+      <Filter>Source Files\Dechets</Filter>
+    </ClCompile>
+    <ClCompile Include="DechetMalConcu.cpp">
+      <Filter>Source Files\Dechets</Filter>
+    </ClCompile>
+    <ClCompile Include="FeuillePapier.cpp">
+      <Filter>Source Files\Dechets</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanteVerte.cpp">
+      <Filter>Source Files\Dechets</Filter>
+    </ClCompile>
+    <ClCompile Include="QuelqueChose.cpp">
+      <Filter>Source Files\Dechets</Filter>
+    </ClCompile>
+    <ClCompile Include="RestantNourriture.cpp">
+      <Filter>Source Files\Dechets</Filter>
+    </ClCompile>
+    <ClCompile Include="SacChips.cpp">
+      <Filter>Source Files\Dechets</Filter>
+    </ClCompile>
+    <ClCompile Include="VerreCafe.cpp">
+      <Filter>Source Files\Dechets</Filter>
+    </ClCompile>
+    <ClCompile Include="DechetTraite.cpp">
+      <Filter>Source Files\DechetsTraite</Filter>
+    </ClCompile>
+    <ClCompile Include="DechetTraiteNonRecyclable.cpp">
+      <Filter>Source Files\DechetsTraite</Filter>
+    </ClCompile>
+    <ClCompile Include="DechetTraiteRecyclable.cpp">
+      <Filter>Source Files\DechetsTraite</Filter>
+    </ClCompile>
+    <ClCompile Include="DechetTraiteCompostable.cpp">
+      <Filter>Source Files\DechetsTraite</Filter>
+    </ClCompile>
+    <ClCompile Include="UQAC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Depot.cpp">
+      <Filter>Source Files\Camions</Filter>
+    </ClCompile>
+    <ClCompile Include="Camion.cpp">
+      <Filter>Source Files\Camions</Filter>
+    </ClCompile>
+    <ClCompile Include="CamionVert.cpp">
+      <Filter>Source Files\Camions</Filter>
+    </ClCompile>
+    <ClCompile Include="CamionBrun.cpp">
+      <Filter>Source Files\Camions</Filter>
+    </ClCompile>
+    <ClCompile Include="CamionBleu.cpp">
+      <Filter>Source Files\Camions</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

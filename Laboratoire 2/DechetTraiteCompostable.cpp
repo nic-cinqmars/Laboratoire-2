@@ -1,0 +1,1 @@
+#include "DechetTraiteCompostable.h"
