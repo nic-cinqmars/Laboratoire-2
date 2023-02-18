@@ -19,4 +19,6 @@ public:
 	ChargementDechet(std::list<Dechet*>* listeDechets);
 	ChargementDechet();
 	~ChargementDechet();
+
+	Dechet* getDechet();
 };

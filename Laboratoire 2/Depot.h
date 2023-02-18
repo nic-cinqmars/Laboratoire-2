@@ -1,4 +1,5 @@
 #pragma once
+#include <string>
 #include "Camion.h"
 #include "CamionBleu.h"
 #include "CamionVert.h"

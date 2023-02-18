@@ -6,7 +6,11 @@ class Compteur
 	static int destructeur;
 
 public:
-	Compteur();
+	Compteur() { ajouterConstructeur(); }
+	
+	Compteur(const Compteur& compteur) { ajouterConstructeurCopie(); }
+
+	~Compteur() { ajouterDestructeur(); }
 
 	static void ajouterConstructeur() { constructeur++; }
 	static void ajouterConstructeurCopie() { constructeurCopie++; }

@@ -28,5 +28,6 @@ DechetTraite::DechetTraite(const DechetTraite& dechetTraite)
 DechetTraite::~DechetTraite()
 {
 	Compteur::ajouterDestructeur();
+
 	delete dechet;
 }

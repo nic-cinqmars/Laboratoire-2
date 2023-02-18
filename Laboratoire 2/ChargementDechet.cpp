@@ -3,12 +3,15 @@
 ChargementDechet::ChargementDechet(std::list<Dechet*>* listeDechets)
 {
 	Compteur::ajouterConstructeur();
+
 	this->listeDechets = listeDechets;
 }
 
 ChargementDechet::ChargementDechet()
 {
 	Compteur::ajouterConstructeur();
+
+	listeDechets = new std::list<Dechet*>;
 	for (int i = 0; i < 5; i++)
 	{
 		listeDechets->push_back(new BoiteCarton());
@@ -26,10 +29,23 @@ ChargementDechet::ChargementDechet()
 
 ChargementDechet::~ChargementDechet()
 {
-	for (int i = 0; i < listeDechets->size(); i++)
+	Compteur::ajouterDestructeur();
+
+	while(!listeDechets->empty())
 	{
 		delete listeDechets->front();
 		listeDechets->pop_front();
 	}
 	delete listeDechets;
+}
+
+Dechet* ChargementDechet::getDechet()
+{
+	if (listeDechets->empty())
+	{
+		return nullptr;
+	}
+	Dechet* dechet = listeDechets->front();
+	listeDechets->pop_front();
+	return dechet;
 }

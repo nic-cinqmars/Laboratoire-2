@@ -44,8 +44,9 @@ class Dechet
 	void setPurete(int purete);
 
 public:
-	~Dechet() { Compteur::ajouterDestructeur(); }
 	Dechet(const Dechet& dechet);
+
+	virtual ~Dechet() { Compteur::ajouterDestructeur(); }
 
 	friend std::ostream& operator<<(std::ostream& output, const Dechet& dechet);
 

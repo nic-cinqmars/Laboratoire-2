@@ -94,7 +94,7 @@ void Dechet::setPurete(int purete)
 
 std::ostream& operator<<(std::ostream& output, const Dechet& dechet)
 {
-	output << "-------------------------------" << std::endl
+	output << std::endl << "-------------------------------" << std::endl
 		<< " id          : " << dechet.id << std::endl
 		<< " poids       : " << dechet.poids << std::endl
 		<< " description : " << dechet.description << std::endl
@@ -103,7 +103,7 @@ std::ostream& operator<<(std::ostream& output, const Dechet& dechet)
 		<< " materiel    : " << dechet.materiel << std::endl
 		<< " purete      : " << dechet.purete << std::endl
 		<< " styromousse : " << dechet.styromousse << std::endl
-		<< " rigide      : " << dechet.rigide << std::endl;
+		<< " rigide      : " << dechet.rigide;
 
 	return output;
 }

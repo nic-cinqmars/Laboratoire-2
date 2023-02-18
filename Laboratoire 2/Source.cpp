@@ -1,8 +1,8 @@
 #include <iostream>
-#include "Dechet.h"
-#include "BoiteCarton.h"
-#include "VerreCafe.h"
-#include "QuelqueChose.h"
+#include "UQAC.h"
+#include "ChargementDechet.h"
+#include "UsineTraitement.h"
+#include "GenerateurSequenceOperations.h"
 
 using namespace std;
 
@@ -19,12 +19,15 @@ int main()
 
 void faireTraitement()
 {
-	QuelqueChose qcc;
-	QuelqueChose qcc2;
-	QuelqueChose qcc3;
-	cout << qcc << endl;
-	cout << qcc2 << endl;
-	cout << qcc3 << endl;
+	ChargementDechet* chargement = UQAC::getChargementDechets();
+
+	UsineTraitement* usineTraitement = new UsineTraitement();
+	GenerateurSequenceOperations gso;
+
+	usineTraitement->chargerOperations(gso.genererSequence(0, usineTraitement));
+	usineTraitement->demarrerTraitements(chargement);
+
+	delete usineTraitement;
 }
 
 void afficherInformation()

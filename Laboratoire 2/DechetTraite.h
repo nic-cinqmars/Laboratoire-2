@@ -7,8 +7,10 @@ protected:
 public:
 	DechetTraite(Dechet* dechet);
 	DechetTraite();
+
 	DechetTraite(const DechetTraite& dechetTraite);
-	~DechetTraite();
+
+	virtual ~DechetTraite();
 
 	Dechet* getDechet() const { return dechet; }
 };

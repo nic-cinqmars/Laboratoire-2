@@ -1,2 +1,41 @@
-﻿  ChargementDechet.cpp
-  Laboratoire 2.vcxproj -> C:\Users\nicci\OneDrive\Documents\Uni\Session 2\Programmation orientée objet\Laboratoire 2\x64\Debug\Laboratoire 2.exe
+﻿  BoiteCarton.cpp
+  BouteilleBiere.cpp
+  Camion.cpp
+  CamionBleu.cpp
+  CamionBrun.cpp
+  CamionVert.cpp
+  Chaise.cpp
+  ChargementDechet.cpp
+  CreationDechetTraiteCompostable.cpp
+  CreationDechetTraiteNonRecyclable.cpp
+  CreationDechetTraiteRecyclable.cpp
+  Dechet.cpp
+  DechetMalConcu.cpp
+  DechetTraite.cpp
+  DechetTraiteCompostable.cpp
+  DechetTraiteNonRecyclable.cpp
+  DechetTraiteRecyclable.cpp
+  Depot.cpp
+  FeuillePapier.cpp
+  GenerateurSequenceOperations.cpp
+  Generating Code...
+  Compiling...
+  Operation.cpp
+  Operation1.cpp
+  Operation2.cpp
+  Operation3.cpp
+  Operation4.cpp
+  Operation5.cpp
+  Operation6.cpp
+  OperationTraitement.cpp
+  PlanteVerte.cpp
+  QuelqueChose.cpp
+  RestantNourriture.cpp
+  SacChips.cpp
+  SequenceOperations.cpp
+  Source.cpp
+  UQAC.cpp
+  UsineTraitement.cpp
+  VerreCafe.cpp
+  Generating Code...
+  Laboratoire 2.vcxproj -> C:\Users\Burger\Documents\École\Programmation\Laboratoire-2\x64\Debug\Laboratoire 2.exe
